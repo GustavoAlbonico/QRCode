@@ -14,13 +14,13 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem 2rem;
+    padding: 10rem 0rem;
 }
 
 main {
     background-color: #fff;
     max-height: 700px;
-    max-width: 400px;
+    max-width: 280px;
     padding: 1rem;
     border-radius: 1.3rem;
 }
@@ -48,13 +48,18 @@ main p {
     font-size: 15px;
 }
 
-@media (max-width: 1440px){
+@media (max-width: 375px){
 
     div {
-        padding: 10rem 0rem;
+        
+        padding: 10rem 1.5rem;
     }
 
     main {
-        max-width: 280px;
+        max-width: 400px;
+    }
+
+    main p {
+        padding: 0.5rem 15px;
     }
 }
