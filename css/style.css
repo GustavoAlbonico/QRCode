@@ -20,9 +20,9 @@ div {
 main {
     background-color: #fff;
     max-height: 700px;
-    max-width: 290px;
+    max-width: 288px;
     padding: 1rem;
-    border-radius: 1.3rem;
+    border-radius: 1.5rem;
 }
 
 main img {
@@ -33,7 +33,7 @@ main img {
 main h1,
 main p {
     text-align: center;
-    padding: 0.5rem 10px;
+    padding: 0.5rem 12px;
 }
 
 main h1 {
