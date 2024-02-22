@@ -20,7 +20,7 @@ div {
 main {
     background-color: #fff;
     max-height: 700px;
-    max-width: 282px;
+    max-width: 290px;
     padding: 1rem;
     border-radius: 1.3rem;
 }
@@ -37,7 +37,7 @@ main p {
 }
 
 main h1 {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     color: hsl(218, 44%, 22%);
     font-size: 22px;
 }
