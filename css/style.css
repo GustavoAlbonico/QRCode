@@ -10,56 +10,48 @@ body{
     background-color: hsl(212, 45%, 89%);
 }
 
-div {
+main {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 9.5rem 0rem;
 }
 
-main {
+div {
     background-color: #fff;
-    max-height: 700px;
-    max-width: 288px;
+    max-width: 250px;
+    max-height: 390px;
     padding: 1rem;
     border-radius: 1.5rem;
 }
 
-main img {
+div img {
     width: 100%;
     border-radius: 0.5rem;
 }
 
-main h1,
-main p {
+div h1,
+div p {
     text-align: center;
-    padding: 0.5rem 12px;
+    padding: 5px 12px;
 }
 
-main h1 {
-    margin-top: 1rem;
+div h1 {
+    margin-top: 5px;
     color: hsl(218, 44%, 22%);
-    font-size: 22px;
+    font-size: 19px;
 }
 
-main p {
+div p {
     margin-bottom: 1rem;
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 13px;
 }
 
 @media (max-width: 375px){
 
-    div {
-        
-        padding: 10rem 1.5rem;
-    }
-
-    main {
-        max-width: 400px;
-    }
-
-    main p {
+    div p {
         padding: 0.5rem 15px;
     }
+
 }
